@@ -15,26 +15,11 @@ def resto_divisao(a,b):
     return a%b
 def potencia(a,b):
     return a**b
-def fatorial(n): 
-    x = 0
-    n+=1
-    for i in range(n):
-        x+=i
-    return x
-
-def menor_da_lista(n): 
-    x=n[0] 
-    for i in range(len(n)):
-        if n[i] < x:
-            x=n[i]
-def area(r):
-    a = pi * r**2
-    return a
-def valor_absoluto(x):
-    if x < 0:
-        return -x
-    else:
-        return x
+def fatorial(nu):
+    r=1
+    for n in range(1,nu+1):
+        r *= n
+    return r
 
 while True:
         print('--------------------------')
@@ -47,12 +32,12 @@ while True:
         print('6 - RESTO DA DIVISÃO')
         print('7 - POTÊNCIA')
         print('8 - FATORIAL')
-        print('11 - ENCERRAR PROGRAMA')
+        print('9 - ENCERRAR PROGRAMA')
         print('--------------------------')
         opc, result = 0,0
         try:
             opc=int(input('Digite o numero da sua opção: '))
-            if opc==8:
+            if opc==9:
                 break
             if opc > 0 and opc < 8:
                 a=int(input('a: '))
@@ -79,7 +64,7 @@ while True:
             print('Opção inválida... Tente novamente')
             print('--------------------------')
             opc=10
-        if opc > 0 and opc < 8:
+        if opc > 0 and opc <= 8:
             print('A resposta é: ',resul)
             while True:
                 try:
