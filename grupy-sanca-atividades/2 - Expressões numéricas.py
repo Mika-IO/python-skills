@@ -47,7 +47,7 @@ print('O valor que cada um vai pagar na compra é: ',compra/4,' reais.')
 print('------------------------------------------------------------------------------------------------') 
 
 # 6
-# ESS EXERCICIO MERECE ATÉ UM COMENTARIO ESSE EXERCICIO... O CARA QUE ECREVEU ESSA PORRA É UM GÊNIO KKKKKKK
+# ESSE EXERCICIO MERECE ATÉ UM COMENTARIO ESSE EXERCICIO... O CARA QUE ECREVEU ESSA PORRA É UM GÊNIO KKKKKKK
 
 from math import pi
 volumePote = 15*10*13

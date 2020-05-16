@@ -27,7 +27,7 @@ area=pi*(raio**2)
 print('A area do circulo com raio igual a ',raio,' é: ',area)
 print('------------------------------------------------------------------------------------------------')
 
-# EXTRA
+# EXTRA (raizes)
 
 n=25
 raizQuadrada=n**(1/2)
