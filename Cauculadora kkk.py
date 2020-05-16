@@ -15,22 +15,12 @@ def resto_divisao(a,b):
     return a%b
 def potencia(a,b):
     return a**b
-def fatorial(n,f=1):
-    for i in range(n):
-        f , n = f*n, n-1
-    return f
-
-'''
-def factorial(n): 
-    x=0
+def fatorial(n): 
+    x = 0
     n+=1
     for i in range(n):
         x+=i
     return x
-
-<<<<< OUTRA FORMA DE FAZER FATORIAL >>>>>
-'''
-
 
 def menor_da_lista(n): 
     x=n[0] 
@@ -83,6 +73,8 @@ while True:
                 resul=resto_divisao(a,b)
             if opc==7:
                 resul=potencia(a,b)
+            if opc==8:
+                resul=fatorial(a)
         except:
             print('Opção inválida... Tente novamente')
             print('--------------------------')
@@ -96,6 +88,5 @@ while True:
                 except:
                     print('Você não digitou um numero.')
             if opc==0:
-                break
-        
+                break        
 exit()
